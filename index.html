@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- below line helps to make website respomsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> WEBSITE DESIGN OF COLLEGE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel=stylesheet
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="/images/logo2.jpg" alt="logo of college"> </a>
+            
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="/about.html">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>
+                <pre>
+                                        GOKHALE EDUCATION SOCIETY'S
+                        R.H.Sapat College Of Engineering And Management Studies , & Research
+                </pre>
+            </h1>
+
+            <p>
+            <pre>
+                        <!-- - ISO 9001:2015 Certified   - NAAC Accredited with grade B++ -->
+                 </pre>
+            </p>
+            <a href="" class="hero-btn">VISIT US TO KNOW MORE</a>
+
+        </div>
+
+
+    </section>
+    <!-- course -->
+
+    <section class="course">
+        <h1>Assignment Submission</h1>
+        <p>
+            <h4>Ankita Bonde</h4>
+            <h4>TE-A</h4>
+        </p>
+        <div class="row">
+            <div class="course-col">
+                <h3><a href="/ESIOT.html" title="ESIOT"> ESIOT</a></h3>
+                <p>
+                    TOTAL:12
+                </p>
+            </div>
+            <div class="course-col">
+                <h3><a href="/daa.html" title="DAA">DAA</a></h3>
+                <p>
+                    TOTAL:
+                </p>
+            </div>
+            <div class="course-col">
+                <h3><a href="/SOPS.html" title="SOPS">SOPS</a></h3>
+                <p>
+                    TOTAL:
+                </p>
+            </div>
+            <div class="course-col">
+                <h3><a href="/SMD.html" title="SMD">SMD</a></h3>
+                <p>
+                    TOTAL:
+                </p>
+            </div>
+            <div class="course-col">
+                <h3><a href="/WT.html" title="WT"> WT</a></h3>
+                <p>
+                    TOTAL:
+                </p>
+            </div>
+            
+        </div>
+
+    </section>
+    <!-- Trainning and Placement -->
+
+
+    <!-- java script for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+        function hideMenu() {
+            navlinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>
